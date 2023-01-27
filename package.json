@@ -1,6 +1,5 @@
 {
-  "name": "design-system-tailwindcss",
-  "private": true,
+  "name": "@claudio-lins-ui-tailwind-css/react",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +7,13 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "compile": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./compile.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claudio-Lins/design-system-tailwindcss.git"
+    
   },
   "dependencies": {
     "react": "^18.2.0",
